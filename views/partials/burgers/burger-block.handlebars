@@ -1,10 +1,7 @@
 <li>
-	{{name}}
-
-	{{#if devoured}}
-    {{!-- Plug in bootstrap class for burger button --}}
-    <button class="btn" data-id="{{id}}" data-devoured="{{true}}">
-		Devoured
+	{{burger_name}}
+	
+	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}Devour!{{else}}Put It Back!{{/if}}
 	</button>
-    {{/if}}
 </li>
