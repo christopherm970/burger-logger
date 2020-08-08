@@ -7,7 +7,7 @@ Simple application that allows a user to type in a burger and select if they hav
 NPM install. Uses handlebars, mysql and express as dependencies.
 
 ## Example of Application
-
+![Demo](burgerex.gif)
 
 ### Future Updates
-Include delete functionality. 
+Include delete functionality and update CSS.
